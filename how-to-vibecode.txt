@@ -1,0 +1,17 @@
+1. Définir clairement le problème auquel je fais face et les objectifs que je souhaite atteindre avec VibeCode.
+a) j'aimerais utiliser le flux d'une caméra pour capter les positions du corps humain
+b) je travaille en Max, j'aimerais recevoir les positions du corps grâce au protocole OSC
+
+2. Faire des recherches sur les bons outils à utiliser
+- Mediapipe
+- YOLO
+
+3. Créer un prompt d'introduction
+
+4. Feuille de route avec les étapes d'implémentation
+Étape 1 : Acquisition vidéo. Créer un script de base qui ouvre la webcam et affiche le flux vidéo. Cela nous permettra de valider que votre environnement Python et les bibliothèques de base (OpenCV) sont prêts.
+Étape 2 : Détection de pose avec YOLO. Intégrer le modèle YOLOv8 pour détecter les squelettes et les dessiner par-dessus le flux vidéo.
+Étape 3 : Communication OSC. Implémenter la librairie python-osc pour formater et envoyer les coordonnées des points (nez, poignets, etc.) vers votre logiciel musical.
+Étape 4 : Affinage et Documentation. Nettoyer le code, gérer les paramètres (choix de la caméra, port OSC) et finaliser le fichier README.md.
+
+4. Implémenter le code, réviser, et tester.
